@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    margin: 15% 45% 0 45%;
+    font-size: 25px;
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+
+/* #result {
+
+} */
+
+.result {
+    padding: 20px 10px;
+    border-bottom: 5px solid gray;
+    text-align: right;
+}
+
+.top {
+    background-color: gray;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top > .top1 {
+    border: 0px;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.top > .top1:hover {
+    background-color: rgb(166, 166, 166);
+}
+
+.top > #clear {
+    background-color: cornflowerblue;    
+}
+
+.top > #clear:hover {
+    background-color: rgb(124, 170, 255);    
+}
+
+.top > #delete {
+    background-color: crimson;    
+}
+
+.top > #delete:hover {
+    background-color: rgb(255, 52, 93);    
+}
+
+.middle1 {
+    background-color: gray;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle1 > .intermedium1 {
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.middle1 > .intermedium1:hover {
+    background-color: rgb(166, 166, 166);
+}
+
+.middle2 {
+    background-color: gray;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle2 > .intermedium2 {
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.middle2 > .intermedium2:hover {
+    background-color: rgb(166, 166, 166);
+}
+
+.middle3 {
+    background-color: gray;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle3 > .intermedium3 {
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.middle3 > .intermedium3:hover {
+    background-color: rgb(166, 166, 166);
+}
+
+.middle4 {
+    background-color: gray;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle4 > .intermedium4 {
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.middle4 > .intermedium4:hover {
+    background-color: rgb(166, 166, 166);
+}
