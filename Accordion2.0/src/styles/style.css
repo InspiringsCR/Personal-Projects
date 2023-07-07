@@ -1,0 +1,79 @@
+body {
+  color: slateblue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #004f7c;
+  margin: 0;
+}
+
+.accordion {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f0f0f0;
+  border: 3px solid #303d3a;
+  border-radius: 15px 0;
+  margin: 15px 25%;
+}
+
+.accordion-title {
+  padding: 15px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-title:hover {
+  cursor: pointer;
+  border-radius: 15px 0;
+}
+
+.accordion-body {
+  padding: 15px;
+  border: 5px solid #d2d2d2;
+  border-radius: 15px 0;
+  overflow: hidden;
+}
+
+.collapsed {
+  display: none;
+}
+
+.accordion-arrow {
+  transition: transform 0.3s ease;
+}
+
+.accordion-arrow.rotated {
+  transform: rotate(180deg);
+}
+
+.buttons {
+  margin: 15px 25%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+#openAllButton {
+  padding: 10px;
+  border: 3px solid #303d3a;
+  border-radius: 15px 0;
+  background-color: slateblue;
+  color: white;
+}
+#openAllButton:hover {
+  cursor: pointer;
+  border-radius: 15px 0;
+}
+
+#collapseAllButton {
+  padding: 10px;
+  border: 3px solid #303d3a;
+  border-radius: 15px 0;
+  background-color: crimson;
+  color: white;
+  margin-left: 10px;
+}
+#collapseAllButton:hover {
+  cursor: pointer;
+  border-radius: 15px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
