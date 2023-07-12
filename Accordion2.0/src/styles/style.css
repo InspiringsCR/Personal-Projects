@@ -36,14 +36,6 @@ body {
   display: none;
 }
 
-.accordion-arrow {
-  transition: transform 0.3s ease;
-}
-
-.accordion-arrow.rotated {
-  transform: rotate(180deg);
-}
-
 .buttons {
   margin: 15px 25%;
   display: flex;
@@ -74,6 +66,4 @@ body {
 #collapseAllButton:hover {
   cursor: pointer;
   border-radius: 15px 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

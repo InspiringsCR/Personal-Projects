@@ -40,14 +40,6 @@ body {
   display: none;
 }
 
-.accordion-arrow {
-  transition: transform 0.3s ease;
-}
-
-.accordion-arrow.rotated {
-  transform: rotate(180deg);
-}
-
 .buttons {
   margin: 15px 25%;
   display: flex;
