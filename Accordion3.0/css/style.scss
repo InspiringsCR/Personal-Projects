@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,900);
+
+body{
+  font-family: Lato;
+  background: linear-gradient(5deg, rgb(15, 255, 247) 0%, rgb(28, 91, 193) 60%);
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+p.title{
+  text-align: center;
+  font-size: 45px;
+  color: #efdeff;
+}
+
+b{
+  color: #FFFFFF;
+  font-size: 55px;
+}
+
+p.remarks{
+  text-align: center;
+  margin-top: 100px;
+  color: #FFFFFF;
+}
+
+.container{
+  width: 100%;
+  max-width: 700px;
+  min-width: 300px;
+  margin: 30vh auto;
+  padding: 0 5vh;
+}
+
+#accordion{
+  position: relative;
+  box-shadow: 0 1px 7px #DBDBDB;
+  margin-bottom: 10px;
+
+  .head{
+    background-color: #FFFFFF;
+    color: #563e6e;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: 0.25s;
+  }
+
+  .arrow{
+    content:'';
+    position: absolute;
+    right: 0;
+    right: 30px;
+    top: 65px;
+    opacity: 1;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 40px solid #FFFFFF;
+    transition: 0.3s ease;
+    z-index: 2;
+  }
+
+  .head:hover .arrow, #accordion .arrow-animate{
+    border-top: 40px solid #FFE77AFF;
+    transform: translateY(40px);
+  }
+
+  .content{
+    background-color: #FFFFFF;
+    display: none;
+    padding: 30px;
+    color: #333333;
+  }
+
+  .head:hover, #accordion .active{
+    background-color: #FFE77AFF; 
+  }
+}
