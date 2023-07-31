@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  background-color: #1a2434;
+}
+
+@media screen and (min-width: 1920px) {
+  nav {
+    background-color: #161c2d;
+    width: 90vw;
+    height: 3.5vh;
+    margin: 0 5%;
+  }
+  nav a {
+    display: inline-block;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 5px;
+    border-radius: 5px;
+  }
+  nav a:hover {
+    background-color: gray;
+  }
+  header {
+    width: 90vw;
+    height: 11vh;
+    background-color: white;
+    margin: 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .left {
+    padding-left: 30px;
+  }
+  header .center {
+    display: flex;
+    align-items: center;
+  }
+  header .center h2 {
+    padding: 0 30px;
+    font-size: 30px;
+  }
+  header .right {
+    padding-right: 30px;
+    display: flex;
+  }
+  header .right .avatar {
+    padding-left: 30px;
+  }
+  header .right .mundo {
+    padding-left: 30px;
+  }
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .content .content-left img {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 10px;
+  }
+  .content .content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #161c2d;
+    border-radius: 10px;
+    width: 30vw;
+    height: 63vh;
+  }
+  .content .content-right .content-top {
+    color: white;
+    margin: 50px 0;
+  }
+  .content .content-right .content-center {
+    color: white;
+    margin: 50px 0;
+    font-size: 20px;
+  }
+  .content .content-right .content-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    width: 25vw;
+    margin: 50px 0;
+  }
+  .content .content-right .score {
+    color: red;
+  }
+  .content .content-right a {
+    color: blue;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+  }
+  .stats h2 {
+    color: white;
+  }
+  .stats .table {
+    width: 30vw;
+    text-align: center;
+  }
+  .stats .table thead {
+    color: red;
+  }
+  .stats .table thead th {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .stats .table tbody {
+    color: skyblue;
+  }
+  .stats .table tbody tr th {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .stats .table tbody tr td {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .stats .table tbody tr:hover {
+    background-color: #111622;
+  }
+  .stats .stats-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25vh;
+  }
+  .financiament {
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .financiament h2 {
+    color: white;
+  }
+  .financiament table {
+    width: 70vw;
+  }
+  .financiament thead {
+    color: red;
+  }
+  .financiament thead th {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .financiament tbody {
+    color: white;
+    text-align: center;
+  }
+  .financiament tbody tr th {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .financiament tbody tr td {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .financiament tbody tr:hover {
+    background-color: #111622;
+  }
+}/*# sourceMappingURL=style.css.map */

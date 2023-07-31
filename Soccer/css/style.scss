@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+$font: 'Montserrat', sans-serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+}
+
+html {
+    background-color: #1a2434;
+}
+
+@media screen and (min-width: 1920px) {
+    nav {
+        background-color: #161c2d;
+        width: 90vw;
+        height: 3.5vh;
+        margin: 0 5%; 
+
+        a {
+            display: inline-block;
+            color: white;
+            padding: 7px;
+            text-decoration: none;
+            font-size: 13px;
+            margin-left: 5px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: gray;
+        }
+    }
+
+    header {
+        width: 90vw;
+        height: 11vh;
+        background-color: white;
+        margin: 10px 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            padding-left: 30px;
+        }
+
+        .center {
+            display: flex;
+            align-items: center;
+
+            h2 {
+                padding: 0 30px;
+                font-size: 30px;
+            }
+        }
+
+        .right {
+            padding-right: 30px;
+            display: flex;
+
+            .avatar {
+                padding-left: 30px;
+            }
+
+            .mundo {
+                padding-left: 30px;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .content-left {
+            img {
+                width: 35vw;
+                height: 35vw;
+                border-radius: 10px;
+            }
+        }
+
+        .content-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #161c2d;
+            border-radius: 10px;
+            width: 30vw;
+            height: 63vh;
+
+            .content-top {
+                color: white;
+                margin: 50px 0;
+            }
+
+            .content-center {
+                color: white;
+                margin: 50px 0;
+                font-size: 20px;
+            }
+
+            .content-bottom {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-size: 10px;
+                background-color: white;
+                border-radius: 10px;
+                color: black;
+                width: 25vw;
+                margin: 50px 0;
+
+            }
+
+            .score {
+                color: red;
+            }
+
+            a {
+                color: blue;
+            }
+        }
+
+    }
+
+    .stats {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 100px;
+
+        h2 {
+            color: white;
+        }
+
+        .table {
+            width: 30vw;
+            text-align: center;
+            
+            thead {
+                color: red;
+
+                th {
+                    border: 1px solid white;
+                    border-radius: 5px;
+                }
+            }
+
+            tbody {
+                color: skyblue;
+
+                tr {
+                    th {
+                        border: 1px solid white;
+                        border-radius: 5px;
+                    }
+
+                    td {
+                        border: 1px solid white;
+                        border-radius: 5px;
+                    }
+                }
+
+                tr:hover {
+                    background-color: #111622;
+                }
+            }
+        }
+
+        .stats-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 25vh;
+
+        }
+    }
+
+    .financiament {
+        margin: 100px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            color: white;
+        }
+
+        table {
+            width: 70vw;
+        }
+
+        thead {
+            color: red;
+
+            th {
+                border: 1px solid white;
+                border-radius: 5px;
+            }
+        }
+
+        tbody {
+            color: white;
+            text-align: center;
+
+            tr {
+                th {
+                    border: 1px solid white;
+                    border-radius: 5px;
+                }
+
+                td {
+                    border: 1px solid white;
+                    border-radius: 5px;
+                }
+            }
+
+            tr:hover {
+                background-color: #111622;
+            }
+        }
+    }
+}
