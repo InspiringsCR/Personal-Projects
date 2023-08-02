@@ -2,11 +2,22 @@ function setupAccordion() {
     const accordionTitles = document.querySelectorAll('.accordion-title');
 
     accordionTitles.forEach(title => {
-        title.addEventListener('click', () => {
+        title.addEventListener('click', function () {
         const accordionBody = title.nextElementSibling;
         accordionBody.classList.toggle('collapsed');
-        });
+
+        if (accordionBody.classList.contains('collapsed')){          
+          title.querySelectorAll('.accordion-icon').forEach(function (i, value){
+            i.innerHTML = '+';
+          });
+        } else {
+          title.querySelectorAll('.accordion-icon').forEach(function (i, value){
+            i.innerHTML = '-';
+          });
+        }
+      });
     });
+    
 }
   
   // Llama a la función setupAccordion cuando se cargue el documento
@@ -32,3 +43,9 @@ collapseAllButton.addEventListener('click', () => {
     body.classList.add('collapsed');
   });
 });
+
+
+
+
+// console.log(document.querySelectorAll('.accordion-icon'))
+
