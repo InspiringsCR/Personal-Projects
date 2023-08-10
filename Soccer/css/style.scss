@@ -225,4 +225,205 @@ html {
             }
         }
     }
+
+    .proxpartido {
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 50px;
+
+        .left-position {
+            margin-top: 100px;
+
+            h2 {
+                color: white;
+            }
+            
+            table {
+
+                thead {
+                    color: red;
+
+                    tr {
+                        th {
+                            border: 1px solid white;
+                            border-radius: 5px;
+                            padding: 5px;
+                        }
+                    }
+                }
+
+                tbody {
+                    tr {
+                        td {
+                            color: skyblue;
+                            border: 1px solid white;
+                            border-radius: 5px;
+                            padding: 5px;
+                        }
+                    }
+
+                    tr:hover {
+                        background-color: #111622;
+                    }
+                }
+            }
+        }
+
+        .right-position {
+            margin-top: 100px;
+
+            h2 {
+                color: white;
+            }
+
+            table {
+
+                thead {
+                    color: red;
+
+                    tr {
+                        th {
+                            border: 1px solid white;
+                            border-radius: 5px;
+                            padding: 5px;
+                        }
+                    }
+                }
+
+                tbody {
+                    tr {
+                        td {
+                            color: skyblue;
+                            border: 1px solid white;
+                            border-radius: 5px;
+                            padding: 5px;
+                        }
+                    }
+
+                    tr:hover {
+                        background-color: #111622;
+                    }
+                }
+            }
+        }
+
+        .estadio {
+            display: flex;
+            justify-content: center;
+    
+            .grada {
+                border-radius: 50px;
+                background-color: #212529;
+                padding: 5%;
+                width: 780px;
+    
+                .campo {
+                    display: flex;
+                    justify-content: start;
+                    position: relative;
+                    width: 700px;
+                    height: 360px;
+                    background-image: url(../img/bg-green-grass.jpg);
+                    background-position: center;
+                    background-size: 100%;
+                    padding: 40px;
+    
+                    .izquierda {
+                        position: relative;
+                        width: 50%;
+                        border: 2px solid #fff;
+                        border-right: none;
+                        overflow: hidden;
+    
+                        .corner {
+                            border: 1px solid #fff;
+                            width: 25px;
+                            height: 25px;
+                            border-radius: 50%;
+                        }
+                        
+                        .corner-superior {
+                            position: absolute;
+                            top: -12px;
+                            left: -14px;
+                        }
+                        
+                        .corner-inferior {
+                            position: absolute;
+                            bottom: -12px;
+                            left: -14px;
+                        }
+    
+                        .area {
+                            width: 90px;
+                            height: 160px;
+                            border: 1px solid #fff;
+                            top: 29%;
+                            position: absolute;
+                            border-left: none;
+                        }
+                    }
+    
+                    .derecha {
+                        position: relative;
+                        width: 50%;
+                        border: 2px solid #fff;
+                        overflow: hidden;
+    
+                        .corner {
+                            border: 1px solid #fff;
+                            width: 25px;
+                            height: 25px;
+                            border-radius: 50%;
+                        }
+    
+                        .corner-superior {
+                            position: absolute;
+                            top: -12px;
+                            right: -14px;
+                        }
+                        
+                        .corner-inferior {
+                            position: absolute;
+                            bottom: -12px;
+                            right: -14px;
+                        }
+    
+                        .area {
+                            width: 90px;
+                            height: 160px;
+                            border: 1px solid #fff;
+                            top: 29%;
+                            position: absolute;
+                            right: 0px;
+                            border-right: none;
+                        }
+                    }
+    
+                    .contenedor-porteria {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                    }
+                    
+                    .porteria {
+                        border: 2px solid #fff;
+                        width: 15px;
+                        height: 50px;
+                    }
+                    
+                    .porteria-izquierda {
+                        border-right: none;
+                    }
+                    
+                    .porteria-derecha {
+                        border-left: none;
+                    }
+                }
+            }
+        }
+    }
 }
